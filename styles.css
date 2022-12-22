@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Cursed Timer';
+    src: url(fonts/CursedTimerULiL.woff) format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.bg-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sb-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1B244A;
+    border: 5px solid #FFF;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.48);
+    height: 385px;
+    width: 575px;
+}
+
+.sb-container h3 {
+    font-family: Verdana, sans-serif;
+    font-size: 4rem;
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 1.4rem;
+}
+
+.sb-container h4 {
+    font-family: 'Cursed Timer', sans-serif;
+    font-size: 9rem;
+    text-align: center;
+    background-color: #080001;
+    color: #F94F6D;
+    padding: 2rem 1rem;
+    padding-bottom: 0;
+    height: 120px;
+    width: 155px;
+    border-radius: 5px;
+}
+
+.sb-container button {
+    height: 45px;
+    width: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: #1B244A;
+    color: #9AABD8;
+    font-family: 'Cursed Timer', sans-serif;
+    font-size: 1.8rem;
+    cursor: pointer;
+    margin-top: 2.6rem;
+}
+
+.add-panel {
+    display: flex;
+    justify-content: space-between;
+}
